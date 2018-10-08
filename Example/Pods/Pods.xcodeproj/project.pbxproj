@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */; };
+		279DE0A1677C6428436E25D8E6C9CA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A46B5DA20E46EF5974102C23F4F41FA /* LBYFix.h in Headers */ = {isa = PBXBuildFile; fileRef = F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5ACDDF2A683ABEC65524F9042CE853FE /* HotFix.h in Headers */ = {isa = PBXBuildFile; fileRef = C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA9AC1324500CAEBCA1AB5A55B58442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC8829810F4FE1D07B008E18F8FD899 /* SKGaara.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9000F6CF424C15A1EF3A3343FDE3AADC /* LBYFix.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */; };
+		93D98A2AEE2252622AAE8D5F2ACC5FAC /* Pods-SKGaara_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF942B26FE478FFB59B4BA8854FF11EF /* Pods-SKGaara_Tests-dummy.m */; };
+		A1AD4AB77006DCB92C60AAE8BB1C8440 /* HotFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 371616D34692D13CF46348E4C465BE90 /* HotFix.m */; };
+		AD5FB63848310774900C7BA41B82F5B2 /* Pods-SKGaara_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEA7CCA953882EABCFB80913558D6 /* Pods-SKGaara_Example-dummy.m */; };
+		D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 86429B9296478D798A288217DFFBC51A /* Aspects.m */; };
+		DF0B591779F410AA6327AF85D75D2CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E0ECD3F29509736CE7C8F732CED18888 /* SKGaara-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */; };
+		F9F780AD21C8774B4A074F481371A15B /* SKGaara.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03699BC6A52BD8BB57F8032AFC419931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C5FD310966070D9553E5B95C59641B;
+			remoteInfo = Aspects;
+		};
+		13BBE32E6F6DC8AEBA7128E0DBB78894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C5FD310966070D9553E5B95C59641B;
+			remoteInfo = Aspects;
+		};
+		4C71338B3C727FDC2F816FA5814766C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F813C1825FBDA24696C003886752AD55;
+			remoteInfo = SKGaara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FE55E41E51CAE719705848906214D98 /* Pods-SKGaara_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1062C175FD152BCDCD9F1138D5FCD73A /* Pods-SKGaara_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKGaara_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		200C9769B251EE98E9C057B850C99ED0 /* Pods-SKGaara_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Tests-resources.sh"; sourceTree = "<group>"; };
+		2BDAEA7CCA953882EABCFB80913558D6 /* Pods-SKGaara_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKGaara_Example-dummy.m"; sourceTree = "<group>"; };
+		371616D34692D13CF46348E4C465BE90 /* HotFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HotFix.m; sourceTree = "<group>"; };
+		41AA1EF6CEB5B1A61594C4C908EF537A /* libPods-SKGaara_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKGaara_Example.a"; path = "libPods-SKGaara_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FFA4E9401568C9A12228ADD01C764 /* libSKGaara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSKGaara.a; path = libSKGaara.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKGaara-dummy.m"; sourceTree = "<group>"; };
+		47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKGaara.xcconfig; sourceTree = "<group>"; };
+		53E018E84D9BC4F024FC5F5DF65CD613 /* Pods-SKGaara_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKGaara_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B124D7B11A4C921340E27AF66435CB1 /* Pods-SKGaara_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5D034B9FC85626E85ED5C2270307D556 /* Pods-SKGaara_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKGaara_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69E4F87ACA1FE7F4E4ACF26432A1A1FE /* Pods-SKGaara_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKGaara_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73F5D8F74352C916EC1E44C4BE59F96F /* Pods-SKGaara_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		778D9571C9055B0CF1160BE895AF5E24 /* Pods-SKGaara_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Example.release.xcconfig"; sourceTree = "<group>"; };
+		786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		79441BD7F9E6A50879E4748BDC8C044D /* Pods-SKGaara_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKGaara.m; sourceTree = "<group>"; };
+		86429B9296478D798A288217DFFBC51A /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		8BE267834F62376B91F27CFA5DE420CB /* Pods-SKGaara_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D62C33637C50745B15EC0146569CF7 /* libPods-SKGaara_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKGaara_Tests.a"; path = "libPods-SKGaara_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKGaara.h; sourceTree = "<group>"; };
+		BAC7FD6558C307706637476E2843B2DC /* SKGaara-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKGaara-prefix.pch"; sourceTree = "<group>"; };
+		BF942B26FE478FFB59B4BA8854FF11EF /* Pods-SKGaara_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKGaara_Tests-dummy.m"; sourceTree = "<group>"; };
+		C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HotFix.h; sourceTree = "<group>"; };
+		CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBYFix.m; sourceTree = "<group>"; };
+		F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBYFix.h; sourceTree = "<group>"; };
+		FAEC5013CF4974324CCA0D72545C30BF /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD427F8E71E528B7622AE734D3ACFD6 /* Pods-SKGaara_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4362B430BEACBEA5597FA08CD1F1D3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA9AC1324500CAEBCA1AB5A55B58442 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204E8A2E44A207E9CC9027CECD43648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279DE0A1677C6428436E25D8E6C9CA23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9ED1CA3AF1DD5E1B95DE5A5251EA22C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0B591779F410AA6327AF85D75D2CE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27015237AB63EB2E48683E41D0369A45 /* Insfgg99x */ = {
+			isa = PBXGroup;
+			children = (
+				C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */,
+				371616D34692D13CF46348E4C465BE90 /* HotFix.m */,
+			);
+			name = Insfgg99x;
+			path = SKGaara/Classes/Insfgg99x;
+			sourceTree = "<group>";
+		};
+		3A370F0EEE0642E4551F47817004CF7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */,
+				45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */,
+				BAC7FD6558C307706637476E2843B2DC /* SKGaara-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKGaara";
+			sourceTree = "<group>";
+		};
+		584586994C65D5A445FBCD99FD2C4983 /* LBYFix */ = {
+			isa = PBXGroup;
+			children = (
+				F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */,
+				CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */,
+			);
+			name = LBYFix;
+			path = SKGaara/Classes/LBYFix;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF5FBF7A13947EDAD08E205014EC07C0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
+				F0B723B5D2CE3AA5E480BB8E6CF0AF27 /* Products */,
+				F6CB77D206E66C5ECD39AC0C74593D49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		819F7518B84F933FB869586BE2CFDEFF /* Pods-SKGaara_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1062C175FD152BCDCD9F1138D5FCD73A /* Pods-SKGaara_Tests-acknowledgements.markdown */,
+				5D034B9FC85626E85ED5C2270307D556 /* Pods-SKGaara_Tests-acknowledgements.plist */,
+				BF942B26FE478FFB59B4BA8854FF11EF /* Pods-SKGaara_Tests-dummy.m */,
+				79441BD7F9E6A50879E4748BDC8C044D /* Pods-SKGaara_Tests-frameworks.sh */,
+				200C9769B251EE98E9C057B850C99ED0 /* Pods-SKGaara_Tests-resources.sh */,
+				73F5D8F74352C916EC1E44C4BE59F96F /* Pods-SKGaara_Tests.debug.xcconfig */,
+				0FE55E41E51CAE719705848906214D98 /* Pods-SKGaara_Tests.release.xcconfig */,
+			);
+			name = "Pods-SKGaara_Tests";
+			path = "Target Support Files/Pods-SKGaara_Tests";
+			sourceTree = "<group>";
+		};
+		AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */,
+				86429B9296478D798A288217DFFBC51A /* Aspects.m */,
+				F58BDFA3535649F4E0376394DCD504B9 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		B1CA1BFEA962CAAFA29CCDA31D3E0311 /* Pods-SKGaara_Example */ = {
+			isa = PBXGroup;
+			children = (
+				69E4F87ACA1FE7F4E4ACF26432A1A1FE /* Pods-SKGaara_Example-acknowledgements.markdown */,
+				53E018E84D9BC4F024FC5F5DF65CD613 /* Pods-SKGaara_Example-acknowledgements.plist */,
+				2BDAEA7CCA953882EABCFB80913558D6 /* Pods-SKGaara_Example-dummy.m */,
+				FFD427F8E71E528B7622AE734D3ACFD6 /* Pods-SKGaara_Example-frameworks.sh */,
+				8BE267834F62376B91F27CFA5DE420CB /* Pods-SKGaara_Example-resources.sh */,
+				5B124D7B11A4C921340E27AF66435CB1 /* Pods-SKGaara_Example.debug.xcconfig */,
+				778D9571C9055B0CF1160BE895AF5E24 /* Pods-SKGaara_Example.release.xcconfig */,
+			);
+			name = "Pods-SKGaara_Example";
+			path = "Target Support Files/Pods-SKGaara_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEEBC9B7852FC02BADD710F65223F554 /* SKGaara */ = {
+			isa = PBXGroup;
+			children = (
+				27015237AB63EB2E48683E41D0369A45 /* Insfgg99x */,
+				584586994C65D5A445FBCD99FD2C4983 /* LBYFix */,
+				ED1FF0AC7CD25E987AE35CD3767BAFC8 /* SKHotfix */,
+				3A370F0EEE0642E4551F47817004CF7E /* Support Files */,
+			);
+			name = SKGaara;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED1FF0AC7CD25E987AE35CD3767BAFC8 /* SKHotfix */ = {
+			isa = PBXGroup;
+			children = (
+				AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */,
+				85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */,
+			);
+			name = SKHotfix;
+			path = SKGaara/Classes/SKHotfix;
+			sourceTree = "<group>";
+		};
+		F0B723B5D2CE3AA5E480BB8E6CF0AF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC5013CF4974324CCA0D72545C30BF /* libAspects.a */,
+				41AA1EF6CEB5B1A61594C4C908EF537A /* libPods-SKGaara_Example.a */,
+				95D62C33637C50745B15EC0146569CF7 /* libPods-SKGaara_Tests.a */,
+				424FFA4E9401568C9A12228ADD01C764 /* libSKGaara.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44F05A8F527D3FE55781A7396EFE39E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F58BDFA3535649F4E0376394DCD504B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */,
+				786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */,
+				979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		F6CB77D206E66C5ECD39AC0C74593D49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1CA1BFEA962CAAFA29CCDA31D3E0311 /* Pods-SKGaara_Example */,
+				819F7518B84F933FB869586BE2CFDEFF /* Pods-SKGaara_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF5FBF7A13947EDAD08E205014EC07C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEEBC9B7852FC02BADD710F65223F554 /* SKGaara */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0838161285D7F3F57DBEEAF1DF631472 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D86F398F813448B5EE7E9528BCC95D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACDDF2A683ABEC65524F9042CE853FE /* HotFix.h in Headers */,
+				3A46B5DA20E46EF5974102C23F4F41FA /* LBYFix.h in Headers */,
+				8FC8829810F4FE1D07B008E18F8FD899 /* SKGaara.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E3C31647A696A92B906EF9EDB2FF2FB /* Pods-SKGaara_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA7D3B8F7F634BD16D201E5B983540B /* Build configuration list for PBXNativeTarget "Pods-SKGaara_Tests" */;
+			buildPhases = (
+				EBDC12FD68C44C2B974AA2ADD2CC3AF7 /* Sources */,
+				B204E8A2E44A207E9CC9027CECD43648 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SKGaara_Tests";
+			productName = "Pods-SKGaara_Tests";
+			productReference = 95D62C33637C50745B15EC0146569CF7 /* libPods-SKGaara_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7C5FD310966070D9553E5B95C59641B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				333DA74B4E797F48FFF01D823B85E3CC /* Sources */,
+				FF7BBE728C49110B1F0CD42AB3E4F3AB /* Frameworks */,
+				0838161285D7F3F57DBEEAF1DF631472 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = FAEC5013CF4974324CCA0D72545C30BF /* libAspects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D702E4BF04C3555E6DB00A615F1DD8AB /* Pods-SKGaara_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482DB7B87C44E688DCF46BA2E92FD31F /* Build configuration list for PBXNativeTarget "Pods-SKGaara_Example" */;
+			buildPhases = (
+				951ED7CDA35D4DE0FBEB1CF9FCF00C41 /* Sources */,
+				4362B430BEACBEA5597FA08CD1F1D3C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C813306E449F7699C6841992FDE064 /* PBXTargetDependency */,
+				9DBEDFDC2B2683FA4BA6BDA4661EAA46 /* PBXTargetDependency */,
+			);
+			name = "Pods-SKGaara_Example";
+			productName = "Pods-SKGaara_Example";
+			productReference = 41AA1EF6CEB5B1A61594C4C908EF537A /* libPods-SKGaara_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F813C1825FBDA24696C003886752AD55 /* SKGaara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D78D85BBEE84442C27564E428CB281 /* Build configuration list for PBXNativeTarget "SKGaara" */;
+			buildPhases = (
+				A1C2EEF6B93B021AA9B452F12BA14561 /* Sources */,
+				B9ED1CA3AF1DD5E1B95DE5A5251EA22C /* Frameworks */,
+				D1D86F398F813448B5EE7E9528BCC95D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0DEDC5BEBA6E1080935F2C072B6199 /* PBXTargetDependency */,
+			);
+			name = SKGaara;
+			productName = SKGaara;
+			productReference = 424FFA4E9401568C9A12228ADD01C764 /* libSKGaara.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F0B723B5D2CE3AA5E480BB8E6CF0AF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7C5FD310966070D9553E5B95C59641B /* Aspects */,
+				D702E4BF04C3555E6DB00A615F1DD8AB /* Pods-SKGaara_Example */,
+				7E3C31647A696A92B906EF9EDB2FF2FB /* Pods-SKGaara_Tests */,
+				F813C1825FBDA24696C003886752AD55 /* SKGaara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333DA74B4E797F48FFF01D823B85E3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */,
+				D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951ED7CDA35D4DE0FBEB1CF9FCF00C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5FB63848310774900C7BA41B82F5B2 /* Pods-SKGaara_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C2EEF6B93B021AA9B452F12BA14561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1AD4AB77006DCB92C60AAE8BB1C8440 /* HotFix.m in Sources */,
+				9000F6CF424C15A1EF3A3343FDE3AADC /* LBYFix.m in Sources */,
+				E0ECD3F29509736CE7C8F732CED18888 /* SKGaara-dummy.m in Sources */,
+				F9F780AD21C8774B4A074F481371A15B /* SKGaara.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDC12FD68C44C2B974AA2ADD2CC3AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D98A2AEE2252622AAE8D5F2ACC5FAC /* Pods-SKGaara_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C813306E449F7699C6841992FDE064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C7C5FD310966070D9553E5B95C59641B /* Aspects */;
+			targetProxy = 13BBE32E6F6DC8AEBA7128E0DBB78894 /* PBXContainerItemProxy */;
+		};
+		2B0DEDC5BEBA6E1080935F2C072B6199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C7C5FD310966070D9553E5B95C59641B /* Aspects */;
+			targetProxy = 03699BC6A52BD8BB57F8032AFC419931 /* PBXContainerItemProxy */;
+		};
+		9DBEDFDC2B2683FA4BA6BDA4661EAA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKGaara;
+			target = F813C1825FBDA24696C003886752AD55 /* SKGaara */;
+			targetProxy = 4C71338B3C727FDC2F816FA5814766C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DDD94238A90B8B71B4CC7E4D1E912D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F5D8F74352C916EC1E44C4BE59F96F /* Pods-SKGaara_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A0E331622F1531D06947AAC8FA8554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKGaara/SKGaara-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270B0140004623A9E4DDC0B8479E03B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D37B9C89B45459E20BF40CE57DD0C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE55E41E51CAE719705848906214D98 /* Pods-SKGaara_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E964B9E04FE2E0D5B4C4A45DF8D1564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8BCD3663EB4D810C862A2638295766D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKGaara/SKGaara-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		998B6777DA5A9BF693581D0A5C6EEFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B124D7B11A4C921340E27AF66435CB1 /* Pods-SKGaara_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9A936F7CF1B87E93D63639AB3BC7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778D9571C9055B0CF1160BE895AF5E24 /* Pods-SKGaara_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482DB7B87C44E688DCF46BA2E92FD31F /* Build configuration list for PBXNativeTarget "Pods-SKGaara_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998B6777DA5A9BF693581D0A5C6EEFFD /* Debug */,
+				EE9A936F7CF1B87E93D63639AB3BC7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDD598D97160FAFC23522D96D16607C /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E964B9E04FE2E0D5B4C4A45DF8D1564 /* Debug */,
+				270B0140004623A9E4DDC0B8479E03B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D78D85BBEE84442C27564E428CB281 /* Build configuration list for PBXNativeTarget "SKGaara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCD3663EB4D810C862A2638295766D3 /* Debug */,
+				22A0E331622F1531D06947AAC8FA8554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA7D3B8F7F634BD16D201E5B983540B /* Build configuration list for PBXNativeTarget "Pods-SKGaara_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDD94238A90B8B71B4CC7E4D1E912D3 /* Debug */,
+				4D37B9C89B45459E20BF40CE57DD0C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

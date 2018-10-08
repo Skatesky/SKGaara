@@ -1,0 +1,6 @@
+framework module SKGaara {
+  umbrella header "SKGaara-umbrella.h"
+
+  export *
+  module * { export * }
+}
