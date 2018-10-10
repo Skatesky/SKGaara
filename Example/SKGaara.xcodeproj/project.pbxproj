@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0DFEA3AE1A1A1F2FA19B1A09 /* libPods-SKGaara_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1C59CF540A047965F8CBC /* libPods-SKGaara_Example.a */; };
+		2389CBED216DF01E00F8982A /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2389CBEC216DF01D00F8982A /* main.js */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2389CBEC216DF01D00F8982A /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		436D29A620B6E98B11CE5FEB /* Pods-SKGaara_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGaara_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKGaara_Tests/Pods-SKGaara_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SKGaara_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGaara_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E5B8EF59F5DF50E87B65FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E5B8EF59F5DF50E87B65FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79B1C59CF540A047965F8CBC /* libPods-SKGaara_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKGaara_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B32C0CCD843C4B5E561DC92A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B8A5F69F36C4A4FF058B21CB /* SKGaara.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKGaara.podspec; path = ../SKGaara.podspec; sourceTree = "<group>"; };
+		B32C0CCD843C4B5E561DC92A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B8A5F69F36C4A4FF058B21CB /* SKGaara.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKGaara.podspec; path = ../SKGaara.podspec; sourceTree = "<group>"; };
 		CB2755731C058072D71B8755 /* libPods-SKGaara_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKGaara_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23739BDD082990B7123A953 /* Pods-SKGaara_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGaara_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKGaara_Example/Pods-SKGaara_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4353A9B641C9C0D6AB6123A /* Pods-SKGaara_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGaara_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKGaara_Tests/Pods-SKGaara_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for SKGaara */ = {
 			isa = PBXGroup;
 			children = (
+				2389CBEC216DF01D00F8982A /* main.js */,
 				6003F59C195388D20070C39A /* SKAppDelegate.h */,
 				6003F59D195388D20070C39A /* SKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -283,6 +286,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2389CBED216DF01E00F8982A /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

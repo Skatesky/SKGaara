@@ -15,4 +15,7 @@
 /// 执行一段js来修复
 + (void)fix:(NSString *)jsString;
 
+/// 根据js文件来修复
++ (void)fixWithJSFile:(NSString *)path;
+
 @end
