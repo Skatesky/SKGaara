@@ -136,8 +136,12 @@ _struct_._param_ = [_dic_[_key_] _sel_]; \
                 
             case '@': // id
             {
+                // 要对NSNull类型过滤
                 if (args_length_judgments(index-2)) {
                     id arg = args[index-2];
+                    if ([arg isEqual:[NSNull null]]) {
+                        arg = nil;
+                    }
                     [inv setArgument:&arg atIndex:index];
                 }
             } break;
