@@ -9,6 +9,7 @@
 #import <objc/runtime.h>
 #import <JavaScriptCore/JavaScriptCore.h>
 #import <Aspects/Aspects.h>
+#import "SKInvocationConstructor.h"
 
 @implementation SKGaara
 
@@ -195,7 +196,7 @@
     // 1 'performSelector: withObject: withObject:' 改方法具有局限性，参数数量限制，类型必须是id类型，返回值也有限制
 //    return [self performSelector:selector forTarget:target withArguments:arguments];
     
-    // 2 通过invocation，灵活易扩展
+    // 2 通过invocation，灵活易扩展，但也很难满足navtive的数据类型
     // (1) 获取方法签名
     NSMethodSignature *signature = [target methodSignatureForSelector:selector];
     
@@ -207,7 +208,10 @@
     invocation.target = target;
     
     // (4) 设置invocation的参数，之后便可以执行调用
-    [self setInvocation:invocation withSignature:signature arguments:arguments];
+    if (![self setInvocation:invocation withSignature:signature arguments:arguments]) {
+        // 设置失败，则不执行
+        return nil;
+    }
     
     // (5) 执行调用invocation
     [invocation invoke];
@@ -217,20 +221,13 @@
 }
 
 /// 用给定的参数设置invocation的参数 invocation 的 'setArgument: atIndex:' 方法
-+ (void)setInvocation:(NSInvocation *)invocation withSignature:(NSMethodSignature *)signature arguments:(NSArray *)arguments {
-    // 普通类型的参数设置可以参考`LBYFix`中的方法...
-    // ...对于诸如`CGRect CGPoint`等结构体，可以通过转换的方式，比如字典...
-    // ...JS在字典中申明类型，指定结构体的每个成员的值.
-    NSUInteger numberOfArguments = signature.numberOfArguments;
-    for (NSUInteger index = 2; index < numberOfArguments; index++) {
-        
-    }
++ (BOOL)setInvocation:(NSInvocation *)invocation withSignature:(NSMethodSignature *)signature arguments:(NSArray *)arguments {
+    return [SKInvocationConstructor constructInvocation:invocation withSignature:signature arguments:arguments];
 }
 
 /// 从invocation获取返回, invocation 的 'getReturnValue:' 方法
 + (id)getReturnFromInvocation:(NSInvocation *)invocation withSignature:(NSMethodSignature *)signature {
-    
-    return nil;
+    return [SKInvocationConstructor getReturnFromInvocation:invocation withSignature:signature];
 }
 
 + (id)performSelector:(SEL)selector forTarget:(id)target withArguments:(NSArray *)arguments {
@@ -240,7 +237,7 @@
     if (!arguments || arguments.count < 1) {
         return [target performSelector:selector];
     } else if (arguments.count == 1) {
-         [target performSelector:selector withObject:arguments[0]];
+         return [target performSelector:selector withObject:arguments[0]];
     } else if (arguments.count == 2) {
         return [target performSelector:selector withObject:arguments[0] withObject:arguments[1]];
     } else {

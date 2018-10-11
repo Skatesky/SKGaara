@@ -37,6 +37,8 @@
     [SKGaara setupContext];
     [SKGaara fixWithJSFile:jsPath];
     
+    [self print:nil];
+    
     [self fixMethod];
 }
 
@@ -45,7 +47,13 @@
 }
 
 - (void)print:(NSString *)string {
-    NSLog(@"%@", string);
+    NSLog(@"you say : %@", string);
+}
+
+- (NSInteger)sum:(int)a b:(NSInteger)b {
+    NSInteger sum = (NSInteger)a + b;
+    NSLog(@"求和：%ld", sum);
+    return sum;
 }
 
 @end
