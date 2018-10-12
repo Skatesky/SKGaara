@@ -66,6 +66,7 @@ _struct_._param_ = [_dic_[_key_] _sel_]; \
     
     NSUInteger count = [sig numberOfArguments];
     for (int index = 2; index < count; index++) {
+        // 从方法签名中解析出每个参数的类型，进而根据js传递过来的参数来设置其具体值
         char *type = (char *)[sig getArgumentTypeAtIndex:index];
         while (*type == 'r' ||  // const
                *type == 'n' ||  // in

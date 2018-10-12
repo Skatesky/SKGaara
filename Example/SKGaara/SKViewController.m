@@ -33,11 +33,14 @@
 
 
 - (void)test {
-    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"main" ofType:@"js"];
+    NSString *jsPath = [[NSBundle mainBundle] pathForResource:@"RunClassMethodHasMultipleParams" ofType:@"js"];
     [SKGaara setupContext];
     [SKGaara fixWithJSFile:jsPath];
     
-    [self print:nil];
+    char *type = "n";
+    NSLog(@"type = %c", *type);
+    type++;
+    NSLog(@"type = %s", type);
     
     [self fixMethod];
 }

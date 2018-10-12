@@ -105,6 +105,12 @@
     [self context][@"runInvocation"] = ^(NSInvocation *invocation) {
         [invocation invoke];
     };
+    [self context][@"runClassMethod"] = ^id(NSString *className, NSString *selectorName, NSArray *arguments) {
+        return [self runClassWithClassName:className selector:selectorName arguments:arguments];
+    };
+    [self context][@"runInstanceMethod"] = ^id(NSString * className, NSString *selectorName, NSArray *arguments) {
+        return [self runInstanceWithInstance:className selector:selectorName arguments:arguments];
+    };
     [[self context] evaluateScript:@"var console = {}"];
     [self context][@"console"][@"log"] = ^(id message) {
         NSLog(@"Javascript log: %@",message);

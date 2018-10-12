@@ -8,6 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0DFEA3AE1A1A1F2FA19B1A09 /* libPods-SKGaara_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1C59CF540A047965F8CBC /* libPods-SKGaara_Example.a */; };
+		2377A4972170993D00FCFF13 /* InstanceMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4892170993D00FCFF13 /* InstanceMethodCrash.js */; };
+		2377A4982170993D00FCFF13 /* RunBeforeClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48A2170993D00FCFF13 /* RunBeforeClassMethod.js */; };
+		2377A4992170993D00FCFF13 /* RunClassMethodHasNoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48B2170993D00FCFF13 /* RunClassMethodHasNoParams.js */; };
+		2377A49A2170993D00FCFF13 /* RunClassMethodHasOneParam.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48C2170993D00FCFF13 /* RunClassMethodHasOneParam.js */; };
+		2377A49B2170993D00FCFF13 /* RunAfterInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48D2170993D00FCFF13 /* RunAfterInstanceMethod.js */; };
+		2377A49C2170993D00FCFF13 /* RunBeforeInstanceMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48E2170993D00FCFF13 /* RunBeforeInstanceMethod.js */; };
+		2377A49D2170993D00FCFF13 /* RunInstanceMethodHasMultipleParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A48F2170993D00FCFF13 /* RunInstanceMethodHasMultipleParams.js */; };
+		2377A49E2170993D00FCFF13 /* RunInstanceMethodHasOneParam.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4902170993D00FCFF13 /* RunInstanceMethodHasOneParam.js */; };
+		2377A49F2170993D00FCFF13 /* RunInstanceMethodHasNoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4912170993D00FCFF13 /* RunInstanceMethodHasNoParams.js */; };
+		2377A4A02170993D00FCFF13 /* RunInstanceMethodHasTwoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4922170993D00FCFF13 /* RunInstanceMethodHasTwoParams.js */; };
+		2377A4A12170993D00FCFF13 /* RunClassMethodHasTwoParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4932170993D00FCFF13 /* RunClassMethodHasTwoParams.js */; };
+		2377A4A22170993D00FCFF13 /* ClassMethodCrash.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4942170993D00FCFF13 /* ClassMethodCrash.js */; };
+		2377A4A32170993D00FCFF13 /* RunClassMethodHasMultipleParams.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4952170993D00FCFF13 /* RunClassMethodHasMultipleParams.js */; };
+		2377A4A42170993D00FCFF13 /* RunAfterClassMethod.js in Resources */ = {isa = PBXBuildFile; fileRef = 2377A4962170993D00FCFF13 /* RunAfterClassMethod.js */; };
+		2377A4AC2170996E00FCFF13 /* LBYFixDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377A4A62170996D00FCFF13 /* LBYFixDemo.m */; };
+		2377A4AD2170996E00FCFF13 /* LBYFixDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377A4A92170996E00FCFF13 /* LBYFixDemo3.m */; };
+		2377A4AE2170996E00FCFF13 /* LBYFixDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377A4AB2170996E00FCFF13 /* LBYFixDemo2.m */; };
 		2389CBED216DF01E00F8982A /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2389CBEC216DF01D00F8982A /* main.js */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2377A4892170993D00FCFF13 /* InstanceMethodCrash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = InstanceMethodCrash.js; sourceTree = "<group>"; };
+		2377A48A2170993D00FCFF13 /* RunBeforeClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunBeforeClassMethod.js; sourceTree = "<group>"; };
+		2377A48B2170993D00FCFF13 /* RunClassMethodHasNoParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasNoParams.js; sourceTree = "<group>"; };
+		2377A48C2170993D00FCFF13 /* RunClassMethodHasOneParam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasOneParam.js; sourceTree = "<group>"; };
+		2377A48D2170993D00FCFF13 /* RunAfterInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunAfterInstanceMethod.js; sourceTree = "<group>"; };
+		2377A48E2170993D00FCFF13 /* RunBeforeInstanceMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunBeforeInstanceMethod.js; sourceTree = "<group>"; };
+		2377A48F2170993D00FCFF13 /* RunInstanceMethodHasMultipleParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasMultipleParams.js; sourceTree = "<group>"; };
+		2377A4902170993D00FCFF13 /* RunInstanceMethodHasOneParam.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasOneParam.js; sourceTree = "<group>"; };
+		2377A4912170993D00FCFF13 /* RunInstanceMethodHasNoParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasNoParams.js; sourceTree = "<group>"; };
+		2377A4922170993D00FCFF13 /* RunInstanceMethodHasTwoParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunInstanceMethodHasTwoParams.js; sourceTree = "<group>"; };
+		2377A4932170993D00FCFF13 /* RunClassMethodHasTwoParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasTwoParams.js; sourceTree = "<group>"; };
+		2377A4942170993D00FCFF13 /* ClassMethodCrash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ClassMethodCrash.js; sourceTree = "<group>"; };
+		2377A4952170993D00FCFF13 /* RunClassMethodHasMultipleParams.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunClassMethodHasMultipleParams.js; sourceTree = "<group>"; };
+		2377A4962170993D00FCFF13 /* RunAfterClassMethod.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RunAfterClassMethod.js; sourceTree = "<group>"; };
+		2377A4A62170996D00FCFF13 /* LBYFixDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo.m; sourceTree = "<group>"; };
+		2377A4A72170996D00FCFF13 /* LBYFixDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo.h; sourceTree = "<group>"; };
+		2377A4A82170996D00FCFF13 /* LBYFixDemo3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo3.h; sourceTree = "<group>"; };
+		2377A4A92170996E00FCFF13 /* LBYFixDemo3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo3.m; sourceTree = "<group>"; };
+		2377A4AA2170996E00FCFF13 /* LBYFixDemo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYFixDemo2.h; sourceTree = "<group>"; };
+		2377A4AB2170996E00FCFF13 /* LBYFixDemo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYFixDemo2.m; sourceTree = "<group>"; };
 		2389CBEC216DF01D00F8982A /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		436D29A620B6E98B11CE5FEB /* Pods-SKGaara_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKGaara_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKGaara_Tests/Pods-SKGaara_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SKGaara_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKGaara_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +134,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2377A4882170993D00FCFF13 /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				2389CBEC216DF01D00F8982A /* main.js */,
+				2377A4892170993D00FCFF13 /* InstanceMethodCrash.js */,
+				2377A48A2170993D00FCFF13 /* RunBeforeClassMethod.js */,
+				2377A48B2170993D00FCFF13 /* RunClassMethodHasNoParams.js */,
+				2377A48C2170993D00FCFF13 /* RunClassMethodHasOneParam.js */,
+				2377A48D2170993D00FCFF13 /* RunAfterInstanceMethod.js */,
+				2377A48E2170993D00FCFF13 /* RunBeforeInstanceMethod.js */,
+				2377A48F2170993D00FCFF13 /* RunInstanceMethodHasMultipleParams.js */,
+				2377A4902170993D00FCFF13 /* RunInstanceMethodHasOneParam.js */,
+				2377A4912170993D00FCFF13 /* RunInstanceMethodHasNoParams.js */,
+				2377A4922170993D00FCFF13 /* RunInstanceMethodHasTwoParams.js */,
+				2377A4932170993D00FCFF13 /* RunClassMethodHasTwoParams.js */,
+				2377A4942170993D00FCFF13 /* ClassMethodCrash.js */,
+				2377A4952170993D00FCFF13 /* RunClassMethodHasMultipleParams.js */,
+				2377A4962170993D00FCFF13 /* RunAfterClassMethod.js */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		2377A4A52170995A00FCFF13 /* LBYDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2377A4A72170996D00FCFF13 /* LBYFixDemo.h */,
+				2377A4A62170996D00FCFF13 /* LBYFixDemo.m */,
+				2377A4AA2170996E00FCFF13 /* LBYFixDemo2.h */,
+				2377A4AB2170996E00FCFF13 /* LBYFixDemo2.m */,
+				2377A4A82170996D00FCFF13 /* LBYFixDemo3.h */,
+				2377A4A92170996E00FCFF13 /* LBYFixDemo3.m */,
+			);
+			path = LBYDemo;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +206,8 @@
 		6003F593195388D20070C39A /* Example for SKGaara */ = {
 			isa = PBXGroup;
 			children = (
-				2389CBEC216DF01D00F8982A /* main.js */,
+				2377A4A52170995A00FCFF13 /* LBYDemo */,
+				2377A4882170993D00FCFF13 /* JS */,
 				6003F59C195388D20070C39A /* SKAppDelegate.h */,
 				6003F59D195388D20070C39A /* SKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -282,10 +355,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2377A49A2170993D00FCFF13 /* RunClassMethodHasOneParam.js in Resources */,
+				2377A4A02170993D00FCFF13 /* RunInstanceMethodHasTwoParams.js in Resources */,
+				2377A4A42170993D00FCFF13 /* RunAfterClassMethod.js in Resources */,
+				2377A49E2170993D00FCFF13 /* RunInstanceMethodHasOneParam.js in Resources */,
+				2377A4992170993D00FCFF13 /* RunClassMethodHasNoParams.js in Resources */,
+				2377A49C2170993D00FCFF13 /* RunBeforeInstanceMethod.js in Resources */,
+				2377A49D2170993D00FCFF13 /* RunInstanceMethodHasMultipleParams.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2377A4982170993D00FCFF13 /* RunBeforeClassMethod.js in Resources */,
+				2377A4A32170993D00FCFF13 /* RunClassMethodHasMultipleParams.js in Resources */,
+				2377A49F2170993D00FCFF13 /* RunInstanceMethodHasNoParams.js in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				2377A49B2170993D00FCFF13 /* RunAfterInstanceMethod.js in Resources */,
+				2377A4972170993D00FCFF13 /* InstanceMethodCrash.js in Resources */,
+				2377A4A12170993D00FCFF13 /* RunClassMethodHasTwoParams.js in Resources */,
+				2377A4A22170993D00FCFF13 /* ClassMethodCrash.js in Resources */,
 				2389CBED216DF01E00F8982A /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,8 +495,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* SKAppDelegate.m in Sources */,
+				2377A4AD2170996E00FCFF13 /* LBYFixDemo3.m in Sources */,
 				6003F5A7195388D20070C39A /* SKViewController.m in Sources */,
+				2377A4AC2170996E00FCFF13 /* LBYFixDemo.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2377A4AE2170996E00FCFF13 /* LBYFixDemo2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
