@@ -2,7 +2,7 @@
 
 target 'SKGaara_Example' do
   pod 'SKGaara', :path => '../'
-
+  
   target 'SKGaara_Tests' do
     inherit! :search_paths
 

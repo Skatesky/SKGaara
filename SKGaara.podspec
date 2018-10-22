@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SKGaara'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'SKGaara is a important role in Naruto.'
 
 # This description is used to generate tags and improve search results.
