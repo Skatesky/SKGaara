@@ -8,23 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0CEF0C8769662CEC14649C5FD2CBE0EB /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */; };
-		236FF149216F3B9000B11E7C /* SKInvocationConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 236FF147216F3B9000B11E7C /* SKInvocationConstructor.h */; };
-		236FF14A216F3B9000B11E7C /* SKInvocationConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 236FF148216F3B9000B11E7C /* SKInvocationConstructor.m */; };
+		17D70CCEC5A7B32A7E0EE47DA68E645D /* SKGaara.h in Headers */ = {isa = PBXBuildFile; fileRef = A68BB9FD8B81B4080E00971195118409 /* SKGaara.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279DE0A1677C6428436E25D8E6C9CA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3A46B5DA20E46EF5974102C23F4F41FA /* LBYFix.h in Headers */ = {isa = PBXBuildFile; fileRef = F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4825DA9C56C675202BA04B9A5C08F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5ACDDF2A683ABEC65524F9042CE853FE /* HotFix.h in Headers */ = {isa = PBXBuildFile; fileRef = C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DA9AC1324500CAEBCA1AB5A55B58442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6318CFF57C5697891E9B45A4868E5F8C /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FC8829810F4FE1D07B008E18F8FD899 /* SKGaara.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9000F6CF424C15A1EF3A3343FDE3AADC /* LBYFix.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */; };
+		6C0821FFD196B95524034E1BE1F99802 /* SKInvocationConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8AE9A19FD55050F6B173F6F4ED8109 /* SKInvocationConstructor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9234513D780399BBC93BCF33068BCA /* SKInvocationConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 636CDD7E565550B8D0F61271D55F6DE1 /* SKInvocationConstructor.m */; };
 		93D98A2AEE2252622AAE8D5F2ACC5FAC /* Pods-SKGaara_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF942B26FE478FFB59B4BA8854FF11EF /* Pods-SKGaara_Tests-dummy.m */; };
-		A1AD4AB77006DCB92C60AAE8BB1C8440 /* HotFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 371616D34692D13CF46348E4C465BE90 /* HotFix.m */; };
+		97982F15C56FC78E5920365708228EB8 /* SKGaara-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FD846BA3A0F1F16FD62218661BF8CA /* SKGaara-dummy.m */; };
 		AD5FB63848310774900C7BA41B82F5B2 /* Pods-SKGaara_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEA7CCA953882EABCFB80913558D6 /* Pods-SKGaara_Example-dummy.m */; };
+		C99612CCE4405D58981439F102E4DB68 /* SKGaara.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DFB810C5BC3F0F60BFB0E15B560194 /* SKGaara.m */; };
 		D77458A1CE4FFFD8846599C02325966B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 86429B9296478D798A288217DFFBC51A /* Aspects.m */; };
 		DF0B591779F410AA6327AF85D75D2CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E0ECD3F29509736CE7C8F732CED18888 /* SKGaara-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */; };
-		F9F780AD21C8774B4A074F481371A15B /* SKGaara.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,38 +51,34 @@
 		0FE55E41E51CAE719705848906214D98 /* Pods-SKGaara_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1062C175FD152BCDCD9F1138D5FCD73A /* Pods-SKGaara_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKGaara_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		200C9769B251EE98E9C057B850C99ED0 /* Pods-SKGaara_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Tests-resources.sh"; sourceTree = "<group>"; };
-		236FF147216F3B9000B11E7C /* SKInvocationConstructor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKInvocationConstructor.h; sourceTree = "<group>"; };
-		236FF148216F3B9000B11E7C /* SKInvocationConstructor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKInvocationConstructor.m; sourceTree = "<group>"; };
 		2BDAEA7CCA953882EABCFB80913558D6 /* Pods-SKGaara_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKGaara_Example-dummy.m"; sourceTree = "<group>"; };
-		371616D34692D13CF46348E4C465BE90 /* HotFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HotFix.m; sourceTree = "<group>"; };
-		41AA1EF6CEB5B1A61594C4C908EF537A /* libPods-SKGaara_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKGaara_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		424FFA4E9401568C9A12228ADD01C764 /* libSKGaara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSKGaara.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKGaara-dummy.m"; sourceTree = "<group>"; };
-		47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKGaara.xcconfig; sourceTree = "<group>"; };
+		41AA1EF6CEB5B1A61594C4C908EF537A /* libPods-SKGaara_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKGaara_Example.a"; path = "libPods-SKGaara_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FFA4E9401568C9A12228ADD01C764 /* libSKGaara.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSKGaara.a; path = libSKGaara.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E018E84D9BC4F024FC5F5DF65CD613 /* Pods-SKGaara_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKGaara_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B124D7B11A4C921340E27AF66435CB1 /* Pods-SKGaara_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D034B9FC85626E85ED5C2270307D556 /* Pods-SKGaara_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKGaara_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		636CDD7E565550B8D0F61271D55F6DE1 /* SKInvocationConstructor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKInvocationConstructor.m; path = SKGaara/Classes/SKHotfix/SKInvocationConstructor.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69E4F87ACA1FE7F4E4ACF26432A1A1FE /* Pods-SKGaara_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKGaara_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71DFB810C5BC3F0F60BFB0E15B560194 /* SKGaara.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKGaara.m; path = SKGaara/Classes/SKHotfix/SKGaara.m; sourceTree = "<group>"; };
 		73F5D8F74352C916EC1E44C4BE59F96F /* Pods-SKGaara_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		778D9571C9055B0CF1160BE895AF5E24 /* Pods-SKGaara_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKGaara_Example.release.xcconfig"; sourceTree = "<group>"; };
 		786587BD911A45F5A76A03E1D23AA280 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
 		79441BD7F9E6A50879E4748BDC8C044D /* Pods-SKGaara_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SKGaara.m; sourceTree = "<group>"; };
 		86429B9296478D798A288217DFFBC51A /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		8BE267834F62376B91F27CFA5DE420CB /* Pods-SKGaara_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D62C33637C50745B15EC0146569CF7 /* libPods-SKGaara_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKGaara_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D62C33637C50745B15EC0146569CF7 /* libPods-SKGaara_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SKGaara_Tests.a"; path = "libPods-SKGaara_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		979CADE3197D595B4D57148CEA299EBE /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		A4FD846BA3A0F1F16FD62218661BF8CA /* SKGaara-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKGaara-dummy.m"; sourceTree = "<group>"; };
+		A68BB9FD8B81B4080E00971195118409 /* SKGaara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGaara.h; path = SKGaara/Classes/SKHotfix/SKGaara.h; sourceTree = "<group>"; };
+		A69EE40CF9D90898449DA9F8EB44CF6D /* SKGaara-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKGaara-prefix.pch"; sourceTree = "<group>"; };
 		A9574DEBB3F753E8385B645E0696AC16 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
-		AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SKGaara.h; sourceTree = "<group>"; };
-		BAC7FD6558C307706637476E2843B2DC /* SKGaara-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKGaara-prefix.pch"; sourceTree = "<group>"; };
+		B4203BC2991D8D3C64C940A1D7A92EC6 /* SKGaara.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKGaara.xcconfig; sourceTree = "<group>"; };
+		BA8AE9A19FD55050F6B173F6F4ED8109 /* SKInvocationConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKInvocationConstructor.h; path = SKGaara/Classes/SKHotfix/SKInvocationConstructor.h; sourceTree = "<group>"; };
 		BF942B26FE478FFB59B4BA8854FF11EF /* Pods-SKGaara_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKGaara_Tests-dummy.m"; sourceTree = "<group>"; };
-		C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HotFix.h; sourceTree = "<group>"; };
 		CC40F1C41FCB9B2BDCA16245047437A8 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBYFix.m; sourceTree = "<group>"; };
-		F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBYFix.h; sourceTree = "<group>"; };
-		FAEC5013CF4974324CCA0D72545C30BF /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEC5013CF4974324CCA0D72545C30BF /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD427F8E71E528B7622AE734D3ACFD6 /* Pods-SKGaara_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKGaara_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,42 +118,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27015237AB63EB2E48683E41D0369A45 /* Insfgg99x */ = {
+		5E30A1DA97449E11888BBD4C6FBB90B5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C53CD826294A57D41FA1C23729C45BD5 /* HotFix.h */,
-				371616D34692D13CF46348E4C465BE90 /* HotFix.m */,
+				A27CA804F32803554B9E97FF60157D43 /* SKGaara */,
 			);
-			name = Insfgg99x;
-			path = SKGaara/Classes/Insfgg99x;
-			sourceTree = "<group>";
-		};
-		3A370F0EEE0642E4551F47817004CF7E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */,
-				45D7E6D5C17557EE3D095B64D6721C56 /* SKGaara-dummy.m */,
-				BAC7FD6558C307706637476E2843B2DC /* SKGaara-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SKGaara";
-			sourceTree = "<group>";
-		};
-		584586994C65D5A445FBCD99FD2C4983 /* LBYFix */ = {
-			isa = PBXGroup;
-			children = (
-				F446A67362BB2746FF6BFB5687611867 /* LBYFix.h */,
-				CCB1F0BD8ECB41879619A4A822E5F375 /* LBYFix.m */,
-			);
-			name = LBYFix;
-			path = SKGaara/Classes/LBYFix;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FF5FBF7A13947EDAD08E205014EC07C0 /* Development Pods */,
+				5E30A1DA97449E11888BBD4C6FBB90B5 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				F44F05A8F527D3FE55781A7396EFE39E /* Pods */,
 				F0B723B5D2CE3AA5E480BB8E6CF0AF27 /* Products */,
@@ -184,6 +153,19 @@
 			path = "Target Support Files/Pods-SKGaara_Tests";
 			sourceTree = "<group>";
 		};
+		A27CA804F32803554B9E97FF60157D43 /* SKGaara */ = {
+			isa = PBXGroup;
+			children = (
+				A68BB9FD8B81B4080E00971195118409 /* SKGaara.h */,
+				71DFB810C5BC3F0F60BFB0E15B560194 /* SKGaara.m */,
+				BA8AE9A19FD55050F6B173F6F4ED8109 /* SKInvocationConstructor.h */,
+				636CDD7E565550B8D0F61271D55F6DE1 /* SKInvocationConstructor.m */,
+				E3E84C64C2209DACB12415122F789C29 /* Support Files */,
+			);
+			name = SKGaara;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		AB1C6504361C5C1B6E3D2AF3EB01ADC2 /* Aspects */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +173,7 @@
 				86429B9296478D798A288217DFFBC51A /* Aspects.m */,
 				F58BDFA3535649F4E0376394DCD504B9 /* Support Files */,
 			);
+			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
@@ -217,18 +200,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BEEBC9B7852FC02BADD710F65223F554 /* SKGaara */ = {
-			isa = PBXGroup;
-			children = (
-				27015237AB63EB2E48683E41D0369A45 /* Insfgg99x */,
-				584586994C65D5A445FBCD99FD2C4983 /* LBYFix */,
-				ED1FF0AC7CD25E987AE35CD3767BAFC8 /* SKHotfix */,
-				3A370F0EEE0642E4551F47817004CF7E /* Support Files */,
-			);
-			name = SKGaara;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,16 +208,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ED1FF0AC7CD25E987AE35CD3767BAFC8 /* SKHotfix */ = {
+		E3E84C64C2209DACB12415122F789C29 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB1105941E1D21EF6E996B0B9343BBD5 /* SKGaara.h */,
-				85F81D58E594C8FEDB17E1D1C1302693 /* SKGaara.m */,
-				236FF147216F3B9000B11E7C /* SKInvocationConstructor.h */,
-				236FF148216F3B9000B11E7C /* SKInvocationConstructor.m */,
+				B4203BC2991D8D3C64C940A1D7A92EC6 /* SKGaara.xcconfig */,
+				A4FD846BA3A0F1F16FD62218661BF8CA /* SKGaara-dummy.m */,
+				A69EE40CF9D90898449DA9F8EB44CF6D /* SKGaara-prefix.pch */,
 			);
-			name = SKHotfix;
-			path = SKGaara/Classes/SKHotfix;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKGaara";
 			sourceTree = "<group>";
 		};
 		F0B723B5D2CE3AA5E480BB8E6CF0AF27 /* Products */ = {
@@ -288,14 +258,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FF5FBF7A13947EDAD08E205014EC07C0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEEBC9B7852FC02BADD710F65223F554 /* SKGaara */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -307,14 +269,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D86F398F813448B5EE7E9528BCC95D /* Headers */ = {
+		37148388C355F947DECB0692EC0380C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ACDDF2A683ABEC65524F9042CE853FE /* HotFix.h in Headers */,
-				236FF149216F3B9000B11E7C /* SKInvocationConstructor.h in Headers */,
-				3A46B5DA20E46EF5974102C23F4F41FA /* LBYFix.h in Headers */,
-				8FC8829810F4FE1D07B008E18F8FD899 /* SKGaara.h in Headers */,
+				17D70CCEC5A7B32A7E0EE47DA68E645D /* SKGaara.h in Headers */,
+				6C0821FFD196B95524034E1BE1F99802 /* SKInvocationConstructor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +336,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0D78D85BBEE84442C27564E428CB281 /* Build configuration list for PBXNativeTarget "SKGaara" */;
 			buildPhases = (
-				A1C2EEF6B93B021AA9B452F12BA14561 /* Sources */,
+				A2262B7B41B230233EABA879D6EB6BA7 /* Sources */,
 				B9ED1CA3AF1DD5E1B95DE5A5251EA22C /* Frameworks */,
-				D1D86F398F813448B5EE7E9528BCC95D /* Headers */,
+				37148388C355F947DECB0692EC0380C3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -437,15 +397,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1C2EEF6B93B021AA9B452F12BA14561 /* Sources */ = {
+		A2262B7B41B230233EABA879D6EB6BA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1AD4AB77006DCB92C60AAE8BB1C8440 /* HotFix.m in Sources */,
-				236FF14A216F3B9000B11E7C /* SKInvocationConstructor.m in Sources */,
-				9000F6CF424C15A1EF3A3343FDE3AADC /* LBYFix.m in Sources */,
-				E0ECD3F29509736CE7C8F732CED18888 /* SKGaara-dummy.m in Sources */,
-				F9F780AD21C8774B4A074F481371A15B /* SKGaara.m in Sources */,
+				97982F15C56FC78E5920365708228EB8 /* SKGaara-dummy.m in Sources */,
+				C99612CCE4405D58981439F102E4DB68 /* SKGaara.m in Sources */,
+				7E9234513D780399BBC93BCF33068BCA /* SKInvocationConstructor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +461,7 @@
 		};
 		22A0E331622F1531D06947AAC8FA8554 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */;
+			baseConfigurationReference = B4203BC2991D8D3C64C940A1D7A92EC6 /* SKGaara.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -710,7 +668,7 @@
 		};
 		8BCD3663EB4D810C862A2638295766D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47EC0B894D6FA98255C38489580EAF65 /* SKGaara.xcconfig */;
+			baseConfigurationReference = B4203BC2991D8D3C64C940A1D7A92EC6 /* SKGaara.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
