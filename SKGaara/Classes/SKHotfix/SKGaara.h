@@ -2,7 +2,7 @@
 //  SKGaara.h
 //  SKGaara
 //
-//  Created by zhanghuabing on 2018/10/8.
+//  Created by skate on 2018/10/8.
 //
 
 #import <Foundation/Foundation.h>
